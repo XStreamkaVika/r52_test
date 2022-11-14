@@ -1,0 +1,64 @@
+:focus {
+  outline: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  height: inherit;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol, figure, menu, form {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  vertical-align: middle;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  border: none;
+  margin: 0;
+}
+
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
